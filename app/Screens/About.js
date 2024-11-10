@@ -26,7 +26,7 @@ export default function About() {
       <Text style={styles.mainHeader}> Follow me on Social Network</Text>
 
       <View style={styles.menuContainer}>
-        <TouchableOpacity style={styles.buttonStyle} onPress={() => Linking.openURL("https://www.linkedin.com/in/hussnain-cheema-711016186/")}>
+        <TouchableOpacity style={styles.buttonStyle} onPress={() => Linking.openURL("https://www.linkedin.com/in/hussnain-cheema/")}>
           <Image 
             style={styles.iconStyle}
             source={require("../assets/Linkedin.png")}
